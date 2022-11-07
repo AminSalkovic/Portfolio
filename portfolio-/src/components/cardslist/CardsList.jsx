@@ -3,8 +3,7 @@ import Card from './Card'
 import * as MdIcons from 'react-icons/md'
 import './CardsList.css'
 import CardItems from './CardItems'
-import { Link } from 'react-router-dom'
-import Dropdown from './Dropdown'
+
 const CardsList = () => {
   return (
     <>
