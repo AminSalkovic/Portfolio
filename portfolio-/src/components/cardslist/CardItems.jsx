@@ -10,13 +10,13 @@ const CardItems=[
     title:'Java Script',
   },
   {  
+    title:'Type Script',
+  },
+  {  
     title:'React',
   },
   {  
     title:'JSX',
-  },
-  {  
-    title:'React Router Dom',
   },
   {  
     title:'RESTS APIs',

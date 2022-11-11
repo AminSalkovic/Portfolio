@@ -10,11 +10,10 @@ const Footer = () => {
       behavior:'smooth'
     })
   }
+ 
   return (
     <div className='footer'>
-      <div className="sec1">
-        <h1>Thanks for visiting</h1>
-      </div>
+
       <div className="sec2">
         <ul>
           <li><Link to={'/'}>Home</Link></li>
@@ -27,10 +26,10 @@ const Footer = () => {
       </div>
       <div className="sec3">
         <ul>
-           <li><a href="https://www.linkedin.com/in/amin-salkovic-662896245/"><i class="fab fa-linkedin"></i></a></li>
-           <li><a href="https://github.com/AminSalkovic"><i class="fa-brands fa-github"></i></a></li>
-           <li><a href="https://www.instagram.com/amin_salkovic/"><i class="fab fa-instagram"></i></a></li> 
-           <li><a href="https://sr-rs.facebook.com/amin.salkovic.9"><i class="fab fa-facebook"></i></a></li>
+           <li onClick={()=>{window.open("https://www.linkedin.com/in/amin-salkovic-662896245/")}}><i class="fab fa-linkedin"></i></li>
+           <li onClick={()=>{window.open("https://github.com/AminSalkovic")}}><i class="fa-brands fa-github"></i></li>
+           <li onClick={()=>{window.open("https://www.instagram.com/amin_salkovic/")}}><i class="fab fa-instagram"></i></li> 
+           <li onClick={()=>{window.open("https://sr-rs.facebook.com/amin.salkovic.9")}}><i class="fab fa-facebook"></i></li>
         </ul>
       </div>
     </div>

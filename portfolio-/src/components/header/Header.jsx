@@ -8,11 +8,13 @@ import About from '../pages/About'
 import Footer from '../footer/Footer'
 import 'animate.css';
 import CardsList from '../cardslist/CardsList'
+import Particle from './Particle'
 
 
 const Header = () => {
   return (
     <div className='container2'>
+      <Particle/>
     <div className="header">
         <div className="section1">
           <h3><MdIcons.MdArrowBackIosNew className='tag'/> html <MdIcons.MdOutlineArrowForwardIos className='tag'/></h3>
