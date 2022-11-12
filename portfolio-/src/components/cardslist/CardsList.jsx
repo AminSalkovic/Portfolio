@@ -10,8 +10,9 @@ const CardsList = () => {
     <h5><MdIcons.MdArrowBackIosNew className='tag'/> section <MdIcons.MdOutlineArrowForwardIos className='tag'/></h5>
     <div className='cards-list'>
          {CardItems.map((item,index)=>{
-            return <Card key={index} heading={item.title}
-              icon={item.icon}
+            return <Card key={index} 
+            heading={item.title}
+            text={item.text}
             />
          })}
     </div>

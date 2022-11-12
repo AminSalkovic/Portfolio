@@ -44,12 +44,12 @@ const Header = () => {
           <h5><MdIcons.MdArrowBackIosNew className='tag'/> /h2 <MdIcons.MdOutlineArrowForwardIos className='tag'/></h5>
         </div>
         <div className="section2">   
-        <ul >
-      <li><a href="https://www.linkedin.com/in/amin-salkovic-662896245/"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="https://github.com/AminSalkovic"><i class="fa-brands fa-github"></i></a></li>
-      <li><a href="https://www.instagram.com/amin_salkovic/"><i class="fab fa-instagram"></i></a></li> 
-      <li><a href="https://sr-rs.facebook.com/amin.salkovic.9"><i class="fab fa-facebook"></i></a></li>
-    </ul>
+              <ul >
+                  <li><a href="https://www.linkedin.com/in/amin-salkovic-662896245/"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="https://github.com/AminSalkovic"><i class="fa-brands fa-github"></i></a></li>
+                  <li><a href="https://www.instagram.com/amin_salkovic/"><i class="fab fa-instagram"></i></a></li> 
+                  <li><a href="https://sr-rs.facebook.com/amin.salkovic.9"><i class="fab fa-facebook"></i></a></li>
+              </ul>
         </div>
     </div>
     <About/>

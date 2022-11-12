@@ -13,7 +13,6 @@ const Footer = () => {
  
   return (
     <div className='footer'>
-
       <div className="sec2">
         <ul>
           <li><Link to={'/'}>Home</Link></li>

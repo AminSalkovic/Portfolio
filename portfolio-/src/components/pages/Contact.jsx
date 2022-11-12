@@ -1,4 +1,4 @@
-import React,{useRef,useEffect} from 'react'
+import React,{useRef} from 'react'
 import emailjs from '@emailjs/browser';
 import * as MdIcons from 'react-icons/md'
 import './Contact.css'
@@ -10,9 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
       emailjs.sendForm('service_yrqt3v9', 'template_o4zgfwe', form.current, 'ljWGCvqVBFgClHLHo')
-        .then((result) => {
-            console.log(result.text);
-            console.log("message sent");
+        .then(() => {
             e.target.reset()
         }, (error) => {
             console.log(error.text);
