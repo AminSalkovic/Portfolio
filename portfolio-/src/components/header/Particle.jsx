@@ -2,7 +2,6 @@ import React from 'react'
 import Particles from 'react-tsparticles'
 import {loadFull} from 'tsparticles'
 
-
 const Particle = () => {
     const particlesInit = async(main)=>{
         await loadFull(main);
@@ -58,7 +57,7 @@ const Particle = () => {
               default: "bounce",
             },
             random: false,
-            speed: 2,
+            speed:1.5,
             straight: false,
           },
           number: {

@@ -1,4 +1,5 @@
 import React,{useRef} from 'react'
+import Iframe from 'react-iframe'
 import emailjs from '@emailjs/browser';
 import * as MdIcons from 'react-icons/md'
 import './Contact.css'
@@ -63,7 +64,7 @@ const Contact = () => {
               <p>Novi Pazar,Serbia</p>
               <p id='mail'>@ aminsalkovic2019@gmail.com</p>
           </div>
-       <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Novi%20Pazar%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+       <Iframe width="100%" height="100%" id="gmap_canvas" url="https://maps.google.com/maps?q=Novi%20Pazar%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></Iframe>
         </div>
     </div>
   )

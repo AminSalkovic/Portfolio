@@ -8,7 +8,7 @@ import About from './components/pages/About';
 
 
 
-function App() {
+const App=()=> {
   return (
     <>
        <div className="container">

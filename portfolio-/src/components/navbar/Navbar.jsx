@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-function Navbar() {
-  const [click, setClick] = useState(false);
-  //comentar
+const Navbar=()=> {
+  const [click,setClick] = useState(false);
+
   const handleClick = () => {
     setClick(!click)
   };
@@ -24,26 +24,21 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home
-            </Link>
+              Home</Link>
           </li>
           <li className='nav-item'>
             <Link
               to='/contact'
               className='nav-links'
               onClick={closeMobileMenu}
-            >
-              Contact
-            </Link>
+            > Contact</Link>
           </li>
           <li className='nav-item'>
             <Link
               to='/about'
               className='nav-links'
               onClick={closeMobileMenu}
-            >
-              About
-            </Link>
+            >About</Link>
           </li>
         </ul>
       </nav>
